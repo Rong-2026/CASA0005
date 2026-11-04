@@ -1,3 +1,12 @@
+## week1 - Data Attribution
+
+Geographical boundary data: Stats NZ, licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Source: Stats NZ – Territorial Authority 2018 Generalised Boundaries.
+
+Licence: https://creativecommons.org/licenses/by/4.0/
+
+The geographical data are used for educational purposes and have been combined with employment data for spatial analysis.
 # week4 – Global Gender Inequality Analysis
 
 ## Project Overview
