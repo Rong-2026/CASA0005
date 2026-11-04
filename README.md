@@ -7,6 +7,28 @@ Source: Stats NZ – Territorial Authority 2018 Generalised Boundaries.
 Licence: https://creativecommons.org/licenses/by/4.0/
 
 The geographical data are used for educational purposes and have been combined with employment data for spatial analysis.
+# Week 2 – Washington Science Assessment Mapping
+
+## Project Overview
+This project uses QGIS to analyse and visualise geographical differences in science assessment results across Washington State counties.
+
+## Data and Methods
+- **Software:** QGIS
+- **Data:** Washington county boundaries and school science assessment data (2018–2019).
+- **Methods:** Data joining, spatial aggregation and choropleth mapping.
+
+## Outputs
+- A thematic map showing spatial variations in science assessment results.
+- Processed spatial datasets saved in GeoPackage format.
+
+## Map Interpretation
+The choropleth map illustrates geographical differences in science assessment results across Washington State counties. Different colours represent different value ranges, highlighting spatial variations in educational outcomes.
+
+## Limitations
+The analysis uses historical data from 2018–2019. County-level aggregation may hide differences between individual schools and smaller geographical areas.
+
+## Data Attribution
+The project uses Washington county boundary data and school assessment data. Original data sources and licensing information should be verified and acknowledged before public redistribution.
 # week4 – Global Gender Inequality Analysis
 
 ## Project Overview
