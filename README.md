@@ -1,61 +1,46 @@
-## week1 - Data Attribution
+# CASA0005 – Geographic Information Systems and Science
 
-Geographical boundary data: Stats NZ, licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+## Repository Overview
 
-Source: Stats NZ – Territorial Authority 2018 Generalised Boundaries.
+This repository contains practical exercises and coursework completed as part of the CASA0005 Geographic Information Systems and Science module at University College London (UCL).
 
-Licence: https://creativecommons.org/licenses/by/4.0/
+The projects focus on developing GIS skills through spatial data processing, analysis and visualisation.
 
-The geographical data are used for educational purposes and have been combined with employment data for spatial analysis.
-# Week 2 – Washington Science Assessment Mapping
+## Software and Tools
 
-## Project Overview
-This project uses QGIS to analyse and visualise geographical differences in science assessment results across Washington State counties.
+- QGIS
+- R and RStudio
+- GitHub
 
-## Data and Methods
-- **Software:** QGIS
-- **Data:** Washington county boundaries and school science assessment data (2018–2019).
-- **Methods:** Data joining, spatial aggregation and choropleth mapping.
+## Weekly Projects
 
-## Outputs
-- A thematic map showing spatial variations in science assessment results.
-- Processed spatial datasets saved in GeoPackage format.
+### Week 1 – Employment Mapping in New Zealand
 
-## Map Interpretation
-The choropleth map illustrates geographical differences in science assessment results across Washington State counties. Different colours represent different value ranges, highlighting spatial variations in educational outcomes.
+Spatial analysis and visualisation of paid employee counts across New Zealand's territorial authorities using 2018 Census data.
 
-## Limitations
-The analysis uses historical data from 2018–2019. County-level aggregation may hide differences between individual schools and smaller geographical areas.
+### Week 2 – Washington Science Assessment Mapping
 
-## Data Attribution
-The project uses Washington county boundary data and school assessment data. Original data sources and licensing information should be verified and acknowledged before public redistribution.
-# week4 – Global Gender Inequality Analysis
+Spatial analysis and visualisation of science assessment results across Washington State counties using QGIS.
 
-## Project Overview
-This project analyses changes in the Gender Inequality Index (GII) across countries between 2010 and 2019 using R and spatial data visualisation.
+### Week 4 – Global Gender Inequality Analysis
+
+Spatial analysis and visualisation of changes in the Gender Inequality Index (GII) across countries between 2010 and 2019.
+
+The project uses UNDP and Natural Earth datasets, with data processing and mapping conducted in R and RStudio. Outputs include thematic maps, GeoJSON spatial data and PNG visualisations.
+
+## Repository Structure
+
+- **Week1/** – New Zealand employment mapping project, datasets and README.
+- **Week2/** – Washington science assessment mapping project, datasets and README.
+- **Week4/** – Global gender inequality analysis, spatial datasets, visualisations and README.
 
 ## Data Sources
-- **GII Data:** UNDP Human Development Reports
-- **World Boundaries:** Natural Earth
 
-## Methodology
-1. Imported and cleaned GII data using R.
-2. Calculated GII changes (2019 minus 2010).
-3. Joined GII data with world spatial data using ISO3 country codes.
-4. Visualised global changes using `ggplot2` and `sf`.
+The projects use geographical and statistical datasets from sources including:
 
-## Results and Interpretation
-The analysis identified 154 geographical features with valid GII change values. Several countries, including Afghanistan, Albania and Armenia, showed decreases in GII between 2010 and 2019.
+- Stats NZ (Statistics New Zealand)
+- Washington State data providers
+- United Nations Development Programme (UNDP)
+- Natural Earth
 
-The map highlights spatial differences in gender inequality changes. Blue indicates decreasing inequality, red indicates increasing inequality, and grey represents missing data.
-
-## Limitations
-Some countries have missing data, and differences in country codes may affect spatial matching. The analysis compares only two years and does not explain the causes of GII changes.
-
-## Outputs
-- `gender_inequality_analysis.R` – R analysis code
-- `world_gii.geojson` – Spatial dataset
-- `GII_change_map.png` – Global GII change map
-
-## Conclusion
-This project demonstrates how R and spatial analysis can be used to explore geographical differences in gender inequality changes.
+Detailed information about data sources, methods and limitations is provided in the README file for each weekly project.
